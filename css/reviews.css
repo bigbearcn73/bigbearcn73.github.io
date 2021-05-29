@@ -1,0 +1,95 @@
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 5px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article * {
+    margin-bottom: 15px;
+}
+
+article select{
+    width: 60%;
+    font-size: 20px;
+    text-align: center;
+    border: solid 1px #ccc;
+}
+
+figcaption {
+    display: none;
+}
+
+.rating {
+    color: #008AC5;
+    font-size: 40px;
+}
+
+figure {
+    padding: 15px;
+    margin: 15px auto;
+}
+
+figure p {
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    
+    article img {
+        grid-area: im;
+    }
+    
+    article div {
+        grid-area: hh;
+    }
+    
+    article div h3 {
+        font-weight: 300;
+        font-size: 90%;
+    }
+    
+    article select {
+        grid-area: sel;
+        width: 100%;
+    }
+    
+    article {
+        margin: 20px 30px;
+        display: grid;
+        grid-template-areas: 
+            "hh im"
+            "hh im"
+            "sel im";
+        justify-items: center;
+        grid-gap: 10px 30px;
+    }
+    
+    section.reviewWrapper {
+        margin: 20px 30px;
+    }
+    
+    figure {
+        display: grid;
+        grid-template-columns: 50px 150px 1fr;
+        grid-gap: 15px;
+    }    
+    
+    .rating {
+        font-size: 30px;
+    }
+    
+    figcaption {
+        display: block;
+    }
+    
+    figure p {
+        text-align: left;
+    }
+}

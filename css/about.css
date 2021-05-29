@@ -1,0 +1,29 @@
+section.about1 {
+    height: 500px;
+    background-color: #E5E5E5;
+    background-image: url('../images/About-2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right top; 
+/*    border: solid 1px #ccc;*/
+    display: flex;
+    align-items: center;
+}
+
+section.about1 p {
+    background-color: #008AC5;
+    color: #fff;
+    width: 60%;
+    padding: 20px;
+    margin-left: 20px;
+    text-align: left;
+}
+
+section.about2 {
+    margin: 20px;
+}
+
+section.about2 img {
+    max-width: 100%;
+    height: auto;
+}
