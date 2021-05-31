@@ -51,6 +51,10 @@ header#body div * {
     height: auto;
 }
 
+.mainwrapper img:hover {
+    opacity: 0.75;
+}
+
 .mainwrapper p {
     display: none;
 }
@@ -70,8 +74,8 @@ article div {
     padding: 20px;
 }
 
-article h2 {
-    width: 150px;
+.freequote{
+    width: 250px;    
     line-height: 1.6;
     margin: 15px auto;
     background-color: #ccc;

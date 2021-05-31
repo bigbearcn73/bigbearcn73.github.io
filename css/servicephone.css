@@ -1,0 +1,51 @@
+main h1 {
+    margin-bottom: 15px;
+}
+
+article {
+    padding: 15px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+article p {
+    text-align: left;
+    padding: 10px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+article.brokenscreen {
+    border-bottom: solid 1px #ccc;
+}
+
+@media screen and (min-width: 768px) {
+    
+    article.brokenscreen {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    article.waterphone {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    
+    article.brokenscreen p {
+        width: 400px;
+        margin-left: 20px;
+    }
+    
+    article.waterphone p {
+        width: 400px;
+        margin-right: 20px;
+    }
+}

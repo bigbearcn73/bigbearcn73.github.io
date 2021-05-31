@@ -30,6 +30,10 @@ figure img {
     margin: 1em;
 }
 
+form {
+    margin: auto;
+}
+
 legend {
     color: #717171;
 /*    font-weight:          need to choose -KR*/ 
@@ -173,11 +177,17 @@ textarea:focus {
 
 @media screen and (min-width: 960px) {
     
+/*
     main section {
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
     }
+*/
     
+    .iWrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     
 }

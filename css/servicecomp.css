@@ -1,0 +1,18 @@
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+main h1 {
+    margin-top: 10px;
+}
+
+main p {
+    text-align: left;
+    padding: 10px;
+}
+
+main ul {
+    text-align: left;
+    margin: 15px;
+}
