@@ -10,7 +10,7 @@
 </head>
 <body>
     <header id="mainHeader">
-        <img src="https://via.placeholder.com/75" alt="geeks logo"><!--logo needs to be updated-->
+        <img src="../images/geekLogo.png" alt="geeks logo"><!--logo needs to be updated-->
         <h3>Computer Geeks 911</h3>
         <nav>
             <input type="checkbox" id="navToggle" class="navToggle">
@@ -42,37 +42,39 @@
 <main>
     <header>
         <h1>Our Services</h1>
-        <h3>Computer Geek 911 team is proud to offer you a variety of services that are designed
-            to meet your own specific needs. ​We serve both business and home users with fast, 
-           affordable service.  Whether the project is large or small, contact us to see how 
-           efficient your problems are solved with the best technology solutions! </h3>
+        <h3>The Computer Geeks 911 team is proud to offer you a variety of services that are designedto meet your own specific needs. ​We serve both business and home users with fast, 
+           affordable service. Whether the project is large or small, contact us to see how 
+           efficiently your problems are solved with the best technology solutions! </h3>
     </header>
 
     <section class="mainContent">
-        <figure>
+        
+<!--          figcaption is not allowed as a child element of a per the validator, changed to div and p similar to other pages  -KR  -->
+           
+           <div>
             <a href="servicesPhones.html">
                 <img src="../images/CellPhone.png" alt="cell phones">
-                <figcaption>Cell Phones</figcaption>
+                <p>Cell Phones</p>
             </a>
-        </figure>
-        <figure>
+        </div>
+        <div>
             <a href="servicesComputers.html">
                 <img src="../images/Computer.png" alt="computers">
-                <figcaption>Computers</figcaption>
+                <p>Computers</p>
             </a>
-        </figure>
-        <figure>
+        </div>
+        <div>
             <a href="servicesHomeBusiness.html">
                 <img src="../images/Networking.png" alt="home business">
-                <figcaption>Home / Business</figcaption>
+                <p>Home / Business</p>
             </a>     
-        </figure>
-        <figure>
+        </div>
+        <div>
             <a href="servicesTroubleshooting.html">
                 <img src="../images/TroubleShooting.png" alt="troubleshooting">
-                <figcaption>Troubleshooting</figcaption>
+                <p>Troubleshooting</p>
             </a>    
-        </figure>
+        </div>
 
     </section>
     <article>
@@ -85,11 +87,11 @@
         <div class="contactWrapper">
             <h4>Computer Geeks 911</h4>
             <div class="phone">
-                <img src="https://via.placeholder.com/30" alt="phoneicon">
+                <img src="../images/phone.svg" alt="phoneicon">
                 <p>858.208.0002</p>
             </div> <!-- End of phone -->
             <div class="email">
-                <img src="https://via.placeholder.com/30" alt="emailicon">
+                <img src="../images/envelope.svg" alt="emailicon">
                 <a href="mailto:admin@geek911.com">Contact Us</a>
             </div> <!-- End of email -->
             <div class="address">
@@ -108,8 +110,8 @@
         <div class="rateWrapper">
             <p>Rate and review us on Google & Yelp</p>
             <div class="rateicon">
-                <img src="images/google+%20icon.png" alt="gicon" class="icon">
-                <img src="images/yelp-logo.png" alt="yelpicon" class="icon">
+                <img src="../images/googleIcon.png" alt="gicon" class="icon">
+                <img src="../images/yelpLogo.png" alt="yelpicon" class="icon">
             </div>
         
             <p>&copy;Computer Geeks 911, 2021 All rights reserved</p>
@@ -130,7 +132,8 @@
                 <li>iPod Repair</li>
                 <li>Network Setup</li>
             </ul>
-            <p>iPhone, iPod, iPad and Mac are registered trademarks of Apple, Inc. uBreakiFix is an independent service company and is in no way affiliated with Apple Inc.</p>
+            <p>iPhone, iPod, iPad and Mac are registered trademarks of Apple, Inc.</p> 
+            <p>Computer Geeks 911 is an independent service company and is in no way affiliated with Apple Inc.</p>
         </div> <!-- End of serviceWrapper -->
     </footer>
 </body>

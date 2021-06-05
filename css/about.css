@@ -1,7 +1,7 @@
 section.about1 {
     height: 500px;
     background-color: #E5E5E5;
-    background-image: url('../images/About-2.jpg');
+    background-image: url('../images/about1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right top; 
@@ -20,10 +20,16 @@ section.about1 p {
 }
 
 section.about2 {
-    margin: 20px;
+    margin: 20px;   
 }
 
 section.about2 img {
     max-width: 100%;
     height: auto;
 }
+/*Added a boxshadow to look more like the mockup    -KR*/
+div img {
+    box-shadow: -5px 5px #E5E5E5;
+}
+
+

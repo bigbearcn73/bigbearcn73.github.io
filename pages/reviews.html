@@ -10,7 +10,7 @@
 </head>
 <body>
     <header id="mainHeader">
-        <img src="https://via.placeholder.com/75" alt="geeks logo"><!--logo needs to be updated-->
+        <img src="../images/geekLogo.png" alt="geeks logo"><!--logo needs to be updated-->
         <h3>Computer Geeks 911</h3>
         <nav>
             <input type="checkbox" id="navToggle" class="navToggle">
@@ -41,62 +41,61 @@
 
 <main>
     <article>
-        <div>
+<!--        <div>-->
             <h1>Computer Geeks 911<br>Reviews:</h1>
             <h3>4.6 average from <br>105 reviews on Google and Yelp</h3>
-        </div>
-        <img src="../images/Reviews.jpg" alt="Reviewers">
+            <div class=headerImage>
+                <img src="../images/Reviews.jpg" alt="Reviewers">
+            </div>
+<!--           I changed the categories to reflect services offered - KR-->
         <select name="category" id="category">
-            <option value="category">All Categories</option>">
-            <option value="yelp">Yelp</option>">
-            <option value="google">Google</option>">
-            <option value="facebook">Facebook</option>">
-            <option value="others">Others</option>">
+            <option value="category">All Categories</option>
+            <option value="phone">Cell Phones</option>
+            <option value="computer">Computers</option>
+            <option value="homeBus">Home/Business</option>
+            <option value="trouble">Troubleshooting</option>
         </select>
+<!--        </div>-->
     </article>
 
     <section class="reviewWrapper">
-        <figure>
-            <img src="../images/Reviewer1.jpg" alt="google and yelp review">
-        <!--        <img src="http://via.placeholder.com/50x150" alt="stars">-->
+       
+<!--       Figure and figcaption were having some issues validating again. Changed to div, h3, and p like in the Index page  -KR -->
+        <div class="rateSection">
+            <img src="../images/reviewer1.jpg" alt="google and yelp review">
+        <!--  input by css      <img src="http://via.placeholder.com/50x150" alt="stars">-->
             <div class="rateWrapper">
                 <div class="rating">
                     <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                 </div>
-                <figcaption>1 week ago via Yelp</figcaption>
-            </div>
-            <p>Omar gives the best service by far and has the best prices!! He goes above and beyond for his
-                clients and gives me honest advice. I go to him for all my phone needs! Any screen replacement 
+                <h3>1 week ago via Yelp</h3>
+                <p>Omar gives the best service by far and has the best prices!! He goes above     and beyond for hisclients and gives me honest advice. I go to him for all my phone needs! Any screen replacement 
                 is 50 dollars!</p>
-        </figure>
-        <figure>
-            <img src="../images/Reviewer2.jpg" alt="google and yelp review">
+            </div>        <!--end rateWrapper 1-->
+
+            <img src="../images/reviewer2.jpg" alt="google and yelp review">
             <div class="rateWrapper">
                 <div class="rating">
                     <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                 </div>
-                <!--        <img src="http://via.placeholder.com/50x150" alt="stars">-->
-                <figcaption>1 month ago via Google</figcaption>
-            </div>
-            <p>Great service and quality of replacement. Not to mention they finished the screen replacement
-                within 20 minutes. Would totally recommend them!</p>
-        </figure>
-        <figure>
-            <img src="../images/Reviewer3.jpg" alt="google and yelp review">
-        <!--        <img src="http://via.placeholder.com/50x150" alt="stars">-->
+                <!--  input by css    <img src="http://via.placeholder.com/50x150" alt="stars">-->
+                <h3>1 month ago via Google</h3>
+                <p>Great service and quality of replacement. Not to mention they finished the screen replacement within 20 minutes. Would totally recommend them!</p>
+            </div> <!--            end rateWrapper 2-->
+
+            <img src="../images/reviewer3.jpg" alt="google and yelp review">
+        <!-- input by css  <img src="http://via.placeholder.com/50x150" alt="stars">-->
            
             <div class="rateWrapper">
                 <div class="rating">
                     <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                 </div>
-                <figcaption>2 months ago via Google</figcaption>
-            </div>
-            <p>My iPad’s was on the blink. I couldn’t use this tablet any more. I took it to Omar (that’s the main 
-                guy’s name). He checked a few things and announced: you need a new battery, that’s all. I had 
-                no idea how to change the battery. He happened to have it & he changed it in 20 minutes, while 
-                I was waiting. It was not easy to do (I was watching). He just charged me $79. They repair 
-                iPhones, Androids and PC’s too. Good address to keep in mind. Thanks!</p>
-        </figure>
+                <h3>2 months ago via Google</h3>
+                <p>My iPad’s was on the blink. I couldn’t use this tablet any more. I took it to Omar (that’s the main guy’s name). He checked a few things and announced: you need a new battery, that’s all. I had no idea how to change the battery. He happened to have it & he changed it in 20 minutes, while I was waiting. It was not easy to do (I was watching). He just charged me $79. They repair iPhones, Androids and PC’s too. Good address to keep in mind. Thanks!</p>
+            </div>     <!--   end rateWrapper 3-->
+
+     </div>     <!--     end rateSection-->
+
     </section>
 
 </main>
@@ -105,11 +104,11 @@
         <div class="contactWrapper">
             <h4>Computer Geeks 911</h4>
             <div class="phone">
-                <img src="https://via.placeholder.com/30" alt="phoneicon">
+                <img src="../images/phone.svg" alt="phoneicon">
                 <p>858.208.0002</p>
             </div> <!-- End of phone -->
             <div class="email">
-                <img src="https://via.placeholder.com/30" alt="emailicon">
+                <img src="../images/envelope.svg" alt="emailicon">
                 <a href="mailto:admin@geek911.com">Contact Us</a>
             </div> <!-- End of email -->
             <div class="address">
@@ -128,8 +127,8 @@
         <div class="rateWrapper">
             <p>Rate and review us on Google & Yelp</p>
             <div class="rateicon">
-                <img src="images/google+%20icon.png" alt="gicon" class="icon">
-                <img src="images/yelp-logo.png" alt="yelpicon" class="icon">
+                <img src="../images/googleIcon.png" alt="gicon" class="icon">
+                <img src="../images/yelpLogo.png" alt="yelpicon" class="icon">
             </div>
         
             <p>&copy;Computer Geeks 911, 2021 All rights reserved</p>
@@ -150,7 +149,8 @@
                 <li>iPod Repair</li>
                 <li>Network Setup</li>
             </ul>
-            <p>iPhone, iPod, iPad and Mac are registered trademarks of Apple, Inc. uBreakiFix is an independent service company and is in no way affiliated with Apple Inc.</p>
+            <p>iPhone, iPod, iPad and Mac are registered trademarks of Apple, Inc.</p>
+            <p>Computer Geeks 911 is an independent service company and is in no way affiliated with Apple Inc.</p>
         </div> <!-- End of serviceWrapper -->
     </footer>
 </body>

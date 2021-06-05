@@ -25,12 +25,21 @@ article ul{
     margin-left: 15px;
 }
 
+.deal {
+    text-align: center;
+    margin: 10px;
+}
+
 @media screen and (min-width: 768px) {
     
     .servicehomeWrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+    }
+    
+    .deal {
+        margin: 30px;
     }
     
 }

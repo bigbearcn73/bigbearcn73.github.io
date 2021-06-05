@@ -3,10 +3,11 @@ main h1, main h3 {
 }
 
 main img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 15px; 
 }
+
 
 article {
     padding: 10px;
@@ -21,21 +22,53 @@ article ul {
     padding: 15px;
 }
 
+/*    Does anyone know why the quote button styles are not pulling from common.css? May be resolved when they are combined-KR*/
+.quote {
+    display: block;
+    width: 60%;
+    padding: 1em;
+    margin-top: 3em;
+    background-color: #8C1B1B;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
 @media screen and (min-width: 768px) {
+    
+    main img {
+    width: 100%;
+}
 
     article.troubleservice {
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 40% 40% 1fr;
         grid-gap: 20px;
     }
     
     article.whyservice {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: 40% 40% 1fr;
         grid-gap: 20px;
     }
     
     article.whyservice img{
         order: 2;
     }
+    
+    .quote {
+        width: 40%;
+    }
+
+
 }

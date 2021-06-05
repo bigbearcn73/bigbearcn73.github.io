@@ -13,7 +13,7 @@ h1 {
     
 }
 
-h3, p {
+h3 p {
     margin: 15px 10px;
     text-align: left;
 }
@@ -28,5 +28,11 @@ h3, p {
     img {
         float: right;
         margin-left: 20px;
-    }   
+    }  
+    
+    
+/*the .rateicon is not being recognized by common.css, this looks better, but the logos are not centered. May be fixed when we combine css... ideas?    -KR    */
+    .rateWrapper {
+        display: grid;
+    }
 }

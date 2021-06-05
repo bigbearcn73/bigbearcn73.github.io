@@ -15,8 +15,9 @@ main h1 {
     max-height: 330px;
 }
 
-figure {
+div.shopItem {
     border: solid 1px #ccc;
+    padding: 1em;
 }
 
 .shoparticle {
@@ -36,6 +37,25 @@ figure {
     margin-bottom: 10px;
     text-align: left;
 }
+
+.stock {
+    display: block;
+    width: 50%;
+    padding: .5em;
+    margin-top: 1em;
+    background-color: #8C1B1B;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media screen and (min-width: 768px) {
     

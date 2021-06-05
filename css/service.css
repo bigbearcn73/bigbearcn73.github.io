@@ -4,7 +4,8 @@ main h1{
 
 main h3{
     margin: 10px;
-    text-align: left;
+/*    changed to center alignment -KR*/
+    text-align: center;
 }
 
 section.mainContent {

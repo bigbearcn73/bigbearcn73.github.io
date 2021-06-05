@@ -22,11 +22,16 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+/*Added this in to keep images responsive   -KR */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 /* General icon size( Google+ and Yelp ) */
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 32px;
+    height: 32px;
 }
 
 /* 2 Header */
@@ -220,12 +225,15 @@ footer .rateWrapper p:first-of-type {
     display: none;
 }
 
+
+/*Changed from 10px because there was a gap below on small screen -KR*/
 footer .rateWrapper p {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 footer .serviceWrapper {
     display: none;
+
 }
 
 /* 6. Largescreen */
@@ -251,7 +259,7 @@ footer .serviceWrapper {
     
     footer {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         font-size: 80%;
     }
     
@@ -300,4 +308,15 @@ footer .serviceWrapper {
         list-style-type: none;
         grid-template-columns: 1fr 1fr;
     }
+    
+/*    added some margin because there wasn't any in these last two section  -KR*/
+    footer .serviceWrapper ul li {
+        margin: .25em 0 .25em 0;     /*        top right bottom left*/
+    }
+/*    Made the font size smaller for the trademark info which seems typical   -KR */
+    footer .serviceWrapper p {
+        margin: .5em 0 0 0;
+        font-size: 60%;
+    }
+    
 }
