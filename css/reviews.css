@@ -137,12 +137,18 @@ figure img {
         grid-gap: 15px;
     }    
 */
+    .rateSection {
+        display: grid;
+        grid-template-columns: 100px 150px 1fr;
+        grid-gap: 15px;
+    }
+    
     
     .rating {
         font-size: 30px;
     }
     
-    .rating p {
+    .rateSection p {
         text-align: left;
     }
     
