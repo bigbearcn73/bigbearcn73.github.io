@@ -26,10 +26,13 @@ section.about2 {
 section.about2 img {
     max-width: 100%;
     height: auto;
+    box-shadow: -5px 5px #E5E5E5;
 }
 /*Added a boxshadow to look more like the mockup    -KR*/
+/* 
 div img {
     box-shadow: -5px 5px #E5E5E5;
 }
+*/
 
 
