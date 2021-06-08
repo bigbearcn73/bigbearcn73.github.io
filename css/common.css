@@ -75,7 +75,8 @@ img {
     clear: both;
     overflow: hidden;
     max-height: 0;
-    background-color: #A5DEFA;
+    /* background-color: #A5DEFA; */
+    background-color: #A2D6F8; 
     transition: max-height .2s ease-out;
 }
 
