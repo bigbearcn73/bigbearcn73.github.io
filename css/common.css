@@ -36,7 +36,8 @@ img {
 
 /* 2 Header */
 #mainHeader {
-    background-color: #A5DEFA;    
+    background-color: #A2D6F8; 
+    /* background-color: #A5DEFA; */    
     position: fixed;
     width: 100%;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
