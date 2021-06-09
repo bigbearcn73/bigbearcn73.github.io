@@ -8,12 +8,12 @@ main img {
     height: auto;
 }
 
-h1 {
+main h1 {
     margin: 30px 10px;
     
 }
 
-h3, p {
+main h3, main p {
     margin: 15px 10px;
     text-align: left;
 }
