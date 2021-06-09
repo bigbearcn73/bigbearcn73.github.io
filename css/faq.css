@@ -32,7 +32,8 @@ h3, p {
     
     
 /*the .rateicon is not being recognized by common.css, this looks better, but the logos are not centered. May be fixed when we combine css... ideas?    -KR    */
-    .rateWrapper {
+    /*.rateWrapper {
         display: grid;
     }
+    */
 }
